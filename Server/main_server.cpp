@@ -13,6 +13,7 @@ void CheckError(string msg)
 
 int main()
 {
+	cout << "hi" << endl;
 	WSADATA wsaData; //윈속 초기화 구조체 
 	SOCKET serverSocket, clientSocket;
 	SOCKADDR_IN serverAddress, clientAddress;
